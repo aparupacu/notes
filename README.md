@@ -9,6 +9,8 @@ Ex: sfdx force:auth:web:login -a https://simpsoftsolutions-f-dev-ed.my.salesforc
 
 # Fetch/Pull the code from Salesforce
 ```
+sfdx force:source:retrieve -m LightningComponentBundle
+
 sfdx force:source:retrieve -m LightningComponentBundle -u aparupa123@simpsoft.com
 
 sfdx force:source:retrieve -m ApexClass.MultiSelectLookupController  -u aparupa123@simpsoft.com
@@ -16,6 +18,8 @@ sfdx force:source:retrieve -m ApexClass.MultiSelectLookupController  -u aparupa1
 
 # Push/Deploy the code into Salesforce
 ```
+sfdx force:source:deploy -m LightningComponentBundle
+
 sfdx force:source:deploy -m LightningComponentBundle -u aparupa123@simpsoft.com
 
 sfdx force:source:deploy -m ApexClass.MultiSelectLookupController -u aparupa123@simpsoft.com
