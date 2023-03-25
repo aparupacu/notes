@@ -4,6 +4,8 @@
 ```
 sfdx force:auth:web:login -r <Your Custom Organization URL>
 
+sfdx force:auth:web:login --setalias vscodeOrg --setdefaultdevhubusername
+
 Ex: sfdx force:auth:web:login -a https://simpsoftsolutions-f-dev-ed.my.salesforce.com/
 ```
 
