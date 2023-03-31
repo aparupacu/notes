@@ -16,6 +16,8 @@ sfdx force:source:retrieve -m LightningComponentBundle
 sfdx force:source:retrieve -m LightningComponentBundle -u aparupa123@simpsoft.com
 
 sfdx force:source:retrieve -m ApexClass.MultiSelectLookupController  -u aparupa123@simpsoft.com
+sfdx force:source:retrieve -m CustomObject,ApexClass
+sfdx force:source:retrieve -m ApexClass:MyApexClass
 ```
 
 # Push/Deploy the code into Salesforce
