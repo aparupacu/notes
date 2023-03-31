@@ -9,7 +9,13 @@ sfdx force:auth:web:login --setalias vscodeOrg --setdefaultdevhubusername
 Ex: sfdx force:auth:web:login -a https://simpsoftsolutions-f-dev-ed.my.salesforce.com/
 ```
 
-# Fetch/Pull the code from Salesforce
+# Logout from org
+```
+sfdx auth:logout --targetusername my-hub-org
+sfdx auth:logout --all
+```
+
+# Push/Deploy the code into Salesforce
 ```
 sfdx force:source:retrieve -m LightningComponentBundle
 
