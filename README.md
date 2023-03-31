@@ -15,7 +15,7 @@ sfdx auth:logout --targetusername my-hub-org
 sfdx auth:logout --all
 ```
 
-# Push/Deploy the code into Salesforce
+# Fetch/Pull the code from Salesforce
 ```
 sfdx force:source:retrieve -m LightningComponentBundle
 
